@@ -27,12 +27,11 @@ public class LiquidContainers2 {
                 second.remove(amount);
             }
             if(command.equals("move")){
-                int tempAmount=amount;
                 if(first.contains()<amount){
-                   tempAmount=first.contains();
+                   amount=first.contains();
                 }
-                    first.remove(tempAmount);
-                    second.add(tempAmount);
+                    first.remove(amount);
+                    second.add(amount);
             }
 
         }
