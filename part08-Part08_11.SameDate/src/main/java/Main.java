@@ -2,6 +2,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        // make test programs here
+        SimpleDate object = new SimpleDate(3, 7, 2011);
+        System.out.println(object.hashCode());
     }
 }
