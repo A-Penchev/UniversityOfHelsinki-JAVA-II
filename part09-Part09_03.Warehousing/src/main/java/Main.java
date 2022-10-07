@@ -3,7 +3,8 @@
 public class Main {
 
     public static void main(String[] args) {
-        // here you can write code to test your classes
+        ProductWarehouseWithHistory juice = new ProductWarehouseWithHistory("Juice", 1000.0, 1000.0);
+        juice.toString();
     }
 
 }
