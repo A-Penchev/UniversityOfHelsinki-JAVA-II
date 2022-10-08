@@ -10,6 +10,8 @@ public abstract class Box {
             Box.this.add(item);
         }
     }
-
+    
     public abstract boolean isInBox(Item item);
+        
+    
 }
