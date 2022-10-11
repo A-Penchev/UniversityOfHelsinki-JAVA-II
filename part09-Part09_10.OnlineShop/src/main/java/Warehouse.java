@@ -23,6 +23,8 @@ public class Warehouse {
             }
         }
         return -99;
+        
+        //return this.prices.getOrDefault(product, -99);
     }
     public int stock(String product){
         Set<String> keys = stocks.keySet();
@@ -33,6 +35,7 @@ public class Warehouse {
             }
         }
         return 0;
+        // return this.quantities.getOrDefault(product, 0);
     }
     public boolean take(String product){
         if(stocks.containsKey(product)){
