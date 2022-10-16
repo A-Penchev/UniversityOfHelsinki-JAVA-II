@@ -1,4 +1,6 @@
 
+import java.util.stream.Stream;
+
 
 public class Item {
 
@@ -21,5 +23,9 @@ public class Item {
     @Override
     public String toString() {
         return this.name + ": (" + this.weight + " kg)";
+    }
+
+    Stream<Object> split(String a_) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 }
