@@ -6,5 +6,6 @@ public class MainProgram {
 //        Student first = new Student("jamo");
 //        Student second = new Student("jamo1");
 //        System.out.println(first.compareTo(second));
+    
     }
 }
