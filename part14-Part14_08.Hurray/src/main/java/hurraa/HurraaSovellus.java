@@ -8,6 +8,10 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
+import javafx.application.Application;
+import static javafx.application.Application.launch;
+import javafx.scene.media.AudioClip;
+import javafx.stage.Stage;
 
 
 
@@ -18,14 +22,11 @@ public class HurraaSovellus extends Application {
         BorderPane pane = new BorderPane();
 
         Button nappi = new Button("Hurraa!");
-        
-            final URL resource = getClass().getResource("Applause-Yannick_Lemieux.wav");
-            
-             
-            audioClip = new AudioClip(resource.toExternalForm()) {};
-     
 
-        // Media sound = new Media("file:Applause-Yannick_Lemieux.wav") {};
+             
+            AudioClip audioClip = new AudioClip("file:Applause-Yannick_Lemieux.wav");  
+
+    
         pane.setCenter(nappi);
 
         //String musicFile = "StayTheNight.mp3";     // For example
